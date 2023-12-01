@@ -1,0 +1,24 @@
+.center{
+    width:400px;
+    margin-top:-41px;
+    margin-left:135%;
+    color:white;
+    display:flex;
+    
+    }
+    .center a{
+        color:white;
+    }
+    .marquee-container {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        height: 30px; /* Adjust the height based on your design */
+      }
+    
+      .marquee {
+        display: inline-block;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+    
